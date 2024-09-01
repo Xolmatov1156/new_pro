@@ -7,6 +7,8 @@ function CustomRoutes() {
     <div>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/like' element={<Like/>}/>
+        <Route path='/save' element={<Save/>}/>
       </Routes>
     </div>
   )
