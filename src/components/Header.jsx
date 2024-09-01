@@ -46,9 +46,11 @@ function Header() {
                 <strong>Save</strong>
               </NavLink>
             </Badge>
-            <NavLink to="/order" style={{ color: "inherit", textDecoration: "none" }}>
-              <strong>Order</strong>
-            </NavLink>
+            <Badge color="secondary" badgeContent={0} showZero>
+              <NavLink to="/save" style={{ color: "inherit", textDecoration: "none" }}>
+                <strong>Order</strong>
+              </NavLink>
+            </Badge>
           </div>
         </Toolbar>
       </Container>
